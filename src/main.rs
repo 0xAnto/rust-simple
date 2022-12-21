@@ -1,3 +1,4 @@
+mod strings;
 fn main() {
-    println!("Hello, world!");
+strings::string_operation();
 }
