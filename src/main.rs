@@ -7,4 +7,19 @@ fn main() {
         // Print each number
         println!("{}", number);
     }
+    println!("Print 1-9");
+
+    for i in 0..10 {
+        // Print each number
+        println!("{}", i);
+    }
+    println!("Loop through the characters in a string");
+
+    let s = "hello";
+
+    // Loop through the characters in the string
+    for c in s.chars() {
+        // Print each character
+        println!("{}", c);
+    }
 }
